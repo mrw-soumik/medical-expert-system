@@ -1,5 +1,4 @@
-% main.pl
-:- consult('knowledge_base.pl').
+% main.pl content
 
 % Starting point of the program
 start :-
@@ -10,9 +9,7 @@ start :-
 % Diagnose the disease based on symptoms
 diagnose :-
     disease(Disease),
-    format("Based on your symptoms, you might have ~w.", [Disease]), nl,
-    halt.
+    format("Based on your symptoms, you might have ~w.", [Disease]), nl.
 
 diagnose :-
-    write("No disease could be diagnosed with the given symptoms."), nl,
-    halt.
+    write("No disease could be diagnosed with the given symptoms."), nl.
