@@ -22,8 +22,10 @@ The goal of this project is to showcase a rule-based system that evaluates user 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/medical-expert-system.git
+   git clone https://github.com/mrw-soumik/medical-expert-system.git
    cd medical-expert-system
+   ```
 2. Run the expert system:
    ```bash
    swipl -s main.pl -g start -t halt
+   ```
